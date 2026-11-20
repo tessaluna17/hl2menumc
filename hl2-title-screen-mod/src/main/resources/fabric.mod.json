@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "hl2menu",
+  "version": "${version}",
+  "name": "Half-Life 2 Menu",
+  "description": "Replaces the Minecraft title screen and its menus with a Half-Life 2 style main menu: wide-tracked title, small text menu, grey VGUI dialogs and a Verdana-like font instead of the Minecraft font.",
+  "license": "All-Rights-Reserved",
+  "environment": "client",
+  "mixins": [
+    "hl2menu.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.0",
+    "minecraft": ">=26.3",
+    "java": ">=25"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.hl2menu.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "GuiSetScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
